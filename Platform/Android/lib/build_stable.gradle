@@ -111,6 +111,7 @@ android {
             }
         }
     }
+    }
 
     variantFilter { variant ->
         println "[[${project.name}]] (LIB) variantFilter buildType: ${variant.buildType.name}"
